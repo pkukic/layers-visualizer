@@ -49,7 +49,7 @@ export interface ModelNote {
   html: string;
 }
 
-export type ModelCategory = 'llm' | 'vision' | 'audio' | 'hybrid';
+export type ModelCategory = 'llm' | 'vision' | 'audio' | 'vlm' | 'hybrid';
 
 export interface ModelSpec {
   id: string;
